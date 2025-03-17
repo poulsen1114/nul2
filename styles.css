@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cdc7bb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    text-align: center;
+}
+
+.logo-container {
+    width: 51.75vw; /* 75% of original 69vw */
+    max-width: 100%;
+}
+
+.logo-container svg {
+    width: 100%;
+    height: auto;
+}
+
+.coming-soon {
+    font-size: 20px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #000;
+    margin-top: 50px; /* Pushes it lower */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.instagram-link img {
+    width: 45px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.instagram-link img:hover {
+    transform: scale(1.1);
+}
+
+.copyright {
+    font-size: 14px;
+    color: #333;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+}
